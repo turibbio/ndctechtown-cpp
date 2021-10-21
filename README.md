@@ -1,3 +1,3 @@
 # ndctechtown-cpp
 
-## This is the secondo demo
+## This is the second demo
