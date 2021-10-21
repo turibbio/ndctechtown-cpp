@@ -1,8 +1,6 @@
 name: Release Prem Environment
 
 on:
-  push:
-    branches: [ cicd ]
   workflow_dispatch:
 
 env:
