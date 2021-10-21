@@ -1,6 +1,9 @@
 name: Release Prem Environment
 
-on: workflow_dispatch
+on:
+  push:
+    branches: [ cicd ]
+  workflow_dispatch:
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
